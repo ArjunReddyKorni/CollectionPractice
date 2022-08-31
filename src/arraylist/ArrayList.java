@@ -17,8 +17,18 @@ public class ArrayList {
         System.out.println("list.indexOf(\"25\") = " + list.indexOf("25"));
         System.out.println("list.indexOf(24) = " + list.indexOf(24));
         System.out.println("list.size() = " + list.size());
+        System.out.println("list.size() = " + list.size());
+        System.out.println("list = " + list);
+
         System.out.println("list.hashCode() = " + list.hashCode());
         System.out.println("list.isEmpty() = " + list.isEmpty());
+        list.set(1,234);
+        System.out.println("list.remove(234) = " + list.remove(2));
+        list.clear();
+        System.out.println("list = " + list);
+        System.out.println("list.isEmpty() = " + list.isEmpty());
+        System.out.println("list.lastIndexOf(24) = " + list.lastIndexOf(24));
+
 
 
     }
