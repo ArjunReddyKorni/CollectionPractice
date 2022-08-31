@@ -17,6 +17,7 @@ public class ArrayList {
         System.out.println("list.indexOf(\"25\") = " + list.indexOf("25"));
         System.out.println("list.indexOf(24) = " + list.indexOf(24));
         System.out.println("list.size() = " + list.size());
+        list.add(2,23);
         System.out.println("list.size() = " + list.size());
         System.out.println("list = " + list);
 
