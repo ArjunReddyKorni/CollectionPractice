@@ -25,4 +25,12 @@ public class StudentGeneric<T,S>{
     public void setName(S name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "StudentGeneric{" +
+                "rollNumber=" + rollNumber +
+                ", name=" + name +
+                '}';
+    }
 }
